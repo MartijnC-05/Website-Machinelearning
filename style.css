@@ -2,11 +2,11 @@
 	margin: 40px auto;
 	border: 2px solid black;
 	border-radius: 15px;
-	background-color: rgb(0, 0, 0);
-  color:rgba(0, 0, 0, 0.938);
+	background-color: rgba(0, 0, 0, 0.945);
+  color:rgba(255, 255, 255, 0.938);
 	overflow: hidden;
 	width: 1000px;
-
+}
 
 body {
   margin: 0;
@@ -14,10 +14,22 @@ body {
 }
 
 nav.main-nav{
- color: greenyellow;
+ color: white;
 }
 
 a{
-  color: greenyellow;
+  color: rgb(101, 164, 92);
   text-decoration: none;
+}
+
+h3{ 
+  color: white;
+}
+
+h1{
+  Color: white;
+}
+
+.page-content{
+	padding: 100px;
 }
