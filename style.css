@@ -36,6 +36,72 @@ h1{
 }
 
 --------------------------------------------------------------------------------------
+/*
+.dropbtn {
+ background-color: rgb(0, 0, 0);
+ color: rgb(101, 164, 92);
+ padding: 16px;
+ font-size: 20px;
+ border: none;
+}
+ 
+.dropdown {
+ float: left;
+ overflow: hidden;
+ position: relative;
+ background-color: black;
+ display: inline-block;
+}
+ 
+.dropdown .dropbtn {
+ font-size: 20px;
+ border: none;
+ outline: none;
+ color: rgb(101, 164, 92);
+ padding: 14px 16px;
+ background-color: inherit;
+ font-family: inherit;
+ margin: 0;
+}
+ 
+.dropdown-content a {
+ color: rgb(101, 164, 92);
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ border-radius: 2px;
+ float: none;
+ text-align: left;
+}
+ 
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: black;
+ min-width: 250px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+ 
+.dropdown-content a {
+ float: none;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
+ 
+.dropdown-content a:hover {background-color: rgb(0, 0, 0);}
+ 
+.dropdown:hover .dropdown-content {display: block;}
+ 
+.dropdown:hover .dropbtn {
+ background-color: rgb(0, 0, 0);
+ color: rgb(101, 164, 92);
+}
+*/
+
 
 .dropbtn {
   background-color: rgb(0, 0, 0);
