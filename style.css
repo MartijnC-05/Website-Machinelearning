@@ -200,6 +200,8 @@ h1{
   color: white;
   font-size: 10px;
   text-decoration: none;
+  padding-left:100px;
+  padding-bottom: 15px
 }
 
 .footer a{
