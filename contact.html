@@ -39,18 +39,17 @@
         <h3> Heeft u nog vragen of opmerkingen na het lezen van onze website </BR>
           dan kun je contact met ons opnemen door dit formulier hieronder in te vullen:  </h3> 
 
-          <form action="./bedankt.html" method="get">
+          <form method="post" action="./bedankt.html" ENCTYPE="text/plain">
             <p>Naam:</p>
-            <p><input name="naam" placeholder="Voornaam"></p> <br>
+            <p><input name="naam" placeholder="Voornaam" required></p> <br>
             <p>Achternaam:</p>
-            <p><input name="Achternaam" placeholder="Achternaam"></p> <br>
+            <p><input name="Achternaam" placeholder="Achternaam" required></p> <br>
             <p>E- mail:</p>
-            <p><input name="Mail" placeholder="E-mail adres"></p> <br>
+            <p><input name="Mail" placeholder="E-mail adres" required></p> <br>
             <p>Telefoon nummer:</p>
-            <p><input name="Telefoon nr" placeholder="Telefoon nummer"></p> <br>
+            <p><input name="Telefoon nr" placeholder="Telefoon nummer" required></p> <br>
             <p>Land:</p>
-            <select naam="land" >
-              <option value="Nederland"> Nederland </option>
+            <select naam="land" required >
               <option value="Afghanistan"> Afghanistan </option>
               <option value="Albanië"> Albanië </option>
               <option value="Algerije"> Algerije </option>
@@ -176,7 +175,7 @@
               <option value=" 	Myanmar	">	Myanmar	</option>
 
               <option value=" 	Namibië	">	Namibië	</option>
-              <option value=" 	Nederland	">	Nederland	</option>
+              <option value=" 	Nederland	" selected>	Nederland	</option>
               <option value=" 	Nepal	">	Nepal	</option>
               <option value=" 	Nicaragua	">	Nicaragua	</option>
               <option value=" 	Nieuw-Zeeland	">	Nieuw-Zeeland	</option>
@@ -260,11 +259,11 @@
             <br>
 
             <p>Uw bericht:</p>
-            <textarea id="bericht" naam="bericht" placeholder="typ hier uw bericht" rows="10" cols="50"></textarea>
+            <textarea id="bericht" naam="bericht" placeholder="typ hier uw bericht" rows="10" cols="50" required></textarea>
 
             <br>
 
-            <p><input type="submit"></p>
+            <p><input type="submit" value="Verzenden"></p>
 
           </form>
   </div>
