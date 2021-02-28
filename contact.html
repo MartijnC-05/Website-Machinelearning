@@ -37,18 +37,33 @@
 
     <div class="page-content">
         <h3> Heeft u nog vragen of opmerkingen na het lezen van onze website </BR>
-          dan kun je contact met ons opnemen door dit formulier hieronder in te vullen:  </h3> 
+          dan kunt u contact met ons opnemen door dit formulier hieronder in te vullen:  </h3> <br>
+        
+        <div class="container">
+          <form method="post" name="formulier" action="bedankt.html" autocomplete="off">
+            
+            <fieldset>
+            <H3> <strong> Naam: </strong> </H3>
+            <H3><input  type="text" name="name" placeholder="Voornaam" required ></H3> 
+            </fieldset>
 
-          <form method="post" action="./bedankt.html" ENCTYPE="text/plain">
-            <p>Naam:</p>
-            <p><input name="naam" placeholder="Voornaam" required></p> <br>
-            <p>Achternaam:</p>
-            <p><input name="Achternaam" placeholder="Achternaam" required></p> <br>
-            <p>E- mail:</p>
-            <p><input name="Mail" placeholder="E-mail adres" required></p> <br>
-            <p>Telefoon nummer:</p>
-            <p><input name="Telefoon nr" placeholder="Telefoon nummer" required></p> <br>
-            <p>Land:</p>
+            <fieldset>
+            <H3> <strong> Achternaam: </strong> </H3>
+            <H3><input type="text" name="Achternaam" placeholder="Achternaam" required></H3> 
+            </fieldset>
+
+            <fieldset>
+            <H3> <strong> E-mail: </strong> </H3>
+            <p><input type="text" type="email" name="Mail" placeholder="E-mail adres" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></p> 
+            </fieldset>
+
+            <fieldset>
+            <H3> <strong> Telefoon nummer: </strong> </H3>
+            <p><input type="text" name="Telefoon" placeholder="Telefoon nummer" pattern="[0-9]{2}-[0-9]{8}" required></p> 
+            </fieldset>
+
+            <fieldset>
+            <H3>Land:</H3>
             <select naam="land" required >
               <option value="Afghanistan"> Afghanistan </option>
               <option value="Albanië"> Albanië </option>
@@ -254,18 +269,20 @@
               <option value=" 	Zweden	">	Zweden	</option>
               <option value=" 	Zwitserland	">	Zwitserland	</option>
             </select> 
+            </fieldset>
 
-            <br>
-            <br>
-
-            <p>Uw bericht:</p>
-            <textarea id="bericht" naam="bericht" placeholder="typ hier uw bericht" rows="10" cols="50" required></textarea>
+            <fieldset>
+            <br> <H3>Uw bericht:</H3>
+            <textarea id="bericht" naam="bericht" placeholder="Typ hier uw bericht" rows="10" cols="50" required></textarea>
+            </fieldset>
 
             <br>
 
             <p><input type="submit" value="Verzenden"></p>
 
           </form>
+        </div>
+
   </div>
   </div>
   </body>
