@@ -25,7 +25,7 @@ a{
 
 h3{ 
   color: white;
-  text-align: justify
+  text-align: justify;
 }
 
 h1{
@@ -261,7 +261,7 @@ input[type=submit]:hover {
   shape-outside: circle();
   border-radius: 50%;
   padding-left: 15px;
-  padding-right: 0px;
+  padding-right: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
