@@ -25,7 +25,7 @@ a{
 
 h3{ 
   color: white;
-  text-align: justify;
+  
 }
 
 h1{
@@ -268,4 +268,21 @@ input[type=submit]:hover {
 
 .afbeelding2{
   border-radius: 20px;
+}
+
+.afbeelding3{
+  border-radius: 70px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.afbeelding4{
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
