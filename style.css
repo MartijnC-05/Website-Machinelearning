@@ -301,7 +301,7 @@ input[type=submit]:hover {
   height: 32px;
   position: absolute;
   top: -7px;
-  left: -5px;
+  left: 840px;
   cursor: pointer;
   opacity: 0; 
   z-index: 2; 
@@ -312,6 +312,7 @@ input[type=submit]:hover {
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
+  margin-left: 850px;
   position: relative;
   background: #ffffff;
   border-radius: 3px;
@@ -347,20 +348,22 @@ input[type=submit]:hover {
 
 #menu{
   position: absolute;
-  width: 300px;
-  height: 350px;
+  width: 500px;
+  Height: 1500px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding: 50px, 50px;
   padding-top: 125px;
   background: rgb(0, 0, 0);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
+  border-radius: 10%;
 }
 
 #menu li{
   padding: 10px 0;
+  text-align:left;
   font-size: 44px;
 }
 
@@ -368,12 +371,11 @@ input[type=submit]:hover {
   transform: none;
 }
 
-
 table, th, td{
   border: 2px solid white;
   text-align: center;
   padding: 5px;
   border-collapse: collapse;
-  
+  font-weight: normal;
 }
 
